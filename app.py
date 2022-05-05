@@ -4,8 +4,6 @@ import bb.bcommercer
 from bb import banco_do_brasil
 
 app = Flask(__name__)
-
-
 @app.route('/')
 def index():
     id_space_projetos = 'IEADYSXZI4QOZRYM'
