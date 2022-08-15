@@ -25,9 +25,14 @@ import wrikeUtil
 # print(dados[0]["taskId"])
 # #print(df['taskId'])
 
+q = 'permalink="https://www.wrike.com/open.htm?id=937034345"'
+print(wrikeUtil.WrikeResponse('/folders/', q))
 
-q = 'permalink="https://www.wrike.com/open.htm?id=891718335"'
-print(wrikeUtil.WrikeResponse('/folders', q))
+#IEADYSXZI435UATJ
+
+#q = 'descendants=true'
+#q = q + '&fields=["superParentIds","hasAttachments","recurrent","briefDescription","responsibleIds","metadata","sharedIds","authorIds","dependencyIds","subTaskIds","parentIds","description","superTaskIds","attachmentCount","customFields"]'
+#print(wrikeUtil.WrikeResponse('/folders/IEADYSXZI435UATJ/tasks', q))
 
 
 # import subprocess
@@ -58,7 +63,6 @@ def getCustomFields(idtask):
     for i in v:
         txt1 = '<b>{0} - {1}</b> : {2}'.format(i.Titulo, i.valor)
         blocos.append(txt1)
-
     return txt1
 
 

@@ -1,0 +1,8 @@
+id_space_Admin = 'IEADYSXZI42AL44S'
+id_folder_ajuste_pagina ='IEADYSXZI42AL6JD'
+id_folder_criacao_pagina ='IEADYSXZI42CXDOJ'
+id_folder_redirect ='IEADYSXZI42CXMCI'
+id_custom_field_demandante = 'IEADYSXZJUACWF6N'
+id_custom_field_diretoria = 'IEADYSXZJUACWGBC'
+id_custom_email = 'IEADYSXZJUACWF6P'
+id_custom_tipo = 'IEADYSXZJUACWGA5'

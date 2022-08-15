@@ -1,23 +1,1850 @@
-{'kind': 'customfields', 'data':
-[{'id': 'IEADYSXZJUABPXQ5', 'accountId': 'IEADYSXZ', 'title': 'PIT', 'type': 'Text', 'sharedIds': ['KX726SNQ', 'KX726H4S', 'KX725N3G', 'KX726HM4', 'KUAIXUT7', 'KUAKGSWP', 'KUAISGFI'], 'settings': {'inheritanceType': 'Projects', 'readOnly': False}}, {'id': 'IEADYSXZJUABPX2K', 'accountId': 'IEADYSXZ',
-'title': 'Valor do Projeto', 'type': 'Currency', 'sharedIds': ['KX724NJO', 'KUAJOQMM', 'KUAKGSWP'], 'settings': {'inheritanceType': 'Projects', 'decimalPlaces': 2, 'useThousandsSeparator': False, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABQYTL', 'accountId': 'IEADYSXZ', 'title':
-'Valor Solicitado', 'type': 'Currency', 'sharedIds': ['KUAIH47X', 'KUAIH43O', 'KUAIXUT7', 'KUAIV2SG'], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 2, 'useThousandsSeparator': True, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABQYTQ', 'accountId': 'IEADYSXZ', 'title':
-'Valor Negociado', 'type': 'Currency', 'sharedIds': ['KUAIH47X', 'KUAIH43O', 'KUAIXUT7', 'KUAIV2SG'], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 2, 'useThousandsSeparator': True, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABQY4M', 'accountId': 'IEADYSXZ', 'title': 'OLD 3 (Renomear)', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABQY4P', 'accountId': 'IEADYSXZ', 'title': 'OLD (Renomear)', 'type': 'Text', 'sharedIds': ['KUAIH45Y', 'KUAIH43O'], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABQZA4', 'accountId': 'IEADYSXZ', 'title': 'Referência (Nº Item da OC)', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABQZB3', 'accountId': 'IEADYSXZ', 'title': 'Margem Estimada', 'type': 'Percentage', 'sharedIds': ['KX726HNA', 'KX726HM6', 'KX726SNQ', 'KX726H4S', 'KUAKGSWP', 'KUAISGFI'], 'settings': {'inheritanceType': 'Projects', 'decimalPlaces': 0, 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABQZB6', 'accountId': 'IEADYSXZ', 'title': 'Realizado', 'type': 'Currency', 'sharedIds': ['KX726HNA', 'KX726HM6', 'KX726SNQ', 'KX726H4S', 'KUAKGSWP', 'KUAISGFI'], 'settings': {'inheritanceType': 'Projects', 'decimalPlaces': 2, 'useThousandsSeparator': True, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}},
-
-{'id': 'IEADYSXZJUABQ27R', 'accountId': 'IEADYSXZ', 'title': 'Valor Unitário', 'type': 'Currency', 'sharedIds': ['KX724NJM', 'KX724NJO', 'KX725N3G', 'KUAJOQMM', 'KUAKGSWP'], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 2, 'useThousandsSeparator': True, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}},
-
-{'id': 'IEADYSXZJUABQ3JE', 'accountId': 'IEADYSXZ', 'title': 'É faturável?', 'type': 'Checkbox', 'sharedIds': ['KX724NJO', 'KUAJOQMM', 'KUAKGSWP'], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABQ5IH', 'accountId': 'IEADYSXZ', 'title': 'Senha de acesso', 'type': 'Text', 'sharedIds': ['KX726HRD', 'KUAIH43O', 'KUAIV2SG'], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABQ5KL', 'accountId': 'IEADYSXZ', 'title': 'MKT', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABQ5LF', 'accountId': 'IEADYSXZ', 'title': 'Complexidade', 'type': 'Multiple', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'values': ['Baixa', 'Média', 'Alta'], 'readOnly': False}}, {'id': 'IEADYSXZJUABRJBK', 'accountId': 'IEADYSXZ', 'title': 'DOAC', 'type': 'Text', 'sharedIds': ['KX724NJO', 'KUAJOQMM', 'KUAKGSWP'], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNEU', 'accountId': 'IEADYSXZ', 'title': 'Allocation', 'type': 'Percentage', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 2, 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNEV', 'accountId': 'IEADYSXZ', 'title': 'Allocated hours', 'type': 'Numeric', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 0, 'useThousandsSeparator': False, 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNFT', 'accountId': 'IEADYSXZ', 'title': 'Time Tracking Flag', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNFU', 'accountId': 'IEADYSXZ', 'title': 'Deployment Size', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNFV', 'accountId': 'IEADYSXZ', 'title': 'Deployment Stage', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNFW', 'accountId': 'IEADYSXZ', 'title': 'Deployment Price', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNFX', 'accountId': 'IEADYSXZ', 'title': 'Updated Delivery Deadline', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNFY', 'accountId': 'IEADYSXZ', 'title': 'Q3 2019 OKR', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNFZ', 'accountId': 'IEADYSXZ', 'title': 'AddOns', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNF2', 'accountId': 'IEADYSXZ', 'title': 'Master Delivery Deadline', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNF4', 'accountId': 'IEADYSXZ', 'title': '*Risks', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNF5', 'accountId': 'IEADYSXZ', 'title': 'Account Owner', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNF6', 'accountId': 'IEADYSXZ', 'title': 'Original Delivery Deadline', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNF7', 'accountId': 'IEADYSXZ', 'title': 'SFDC Status', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGA', 'accountId': 'IEADYSXZ', 'title': 'License Users', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGB', 'accountId': 'IEADYSXZ', 'title': 'Wrike Subscription Type', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGC', 'accountId': 'IEADYSXZ', 'title': 'SFDC Deployment ID**', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGD', 'accountId': 'IEADYSXZ', 'title': 'Package Type', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGE', 'accountId': 'IEADYSXZ', 'title': 'Deployment Sold By', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGF', 'accountId': 'IEADYSXZ', 'title': 'Wrike CSM', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGG', 'accountId': 'IEADYSXZ', 'title': '*Execs Engaged?', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGH', 'accountId': 'IEADYSXZ', 'title': '*Executive Name/s', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGI', 'accountId': 'IEADYSXZ', 'title': '*Use Case', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGJ', 'accountId': 'IEADYSXZ', 'title': 'Subscription MRR**', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGK', 'accountId': 'IEADYSXZ', 'title': 'Created by', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGL', 'accountId': 'IEADYSXZ', 'title': '*Business Objective Identified?', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGM', 'accountId': 'IEADYSXZ', 'title': '*Business Objective', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGN', 'accountId': 'IEADYSXZ', 'title': 'Opportunity Type', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGO', 'accountId': 'IEADYSXZ', 'title': 'Next Step', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGP', 'accountId': 'IEADYSXZ', 'title': '*Seats Deployed %', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGQ', 'accountId': 'IEADYSXZ', 'title': 'Kickoff Date', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGR', 'accountId': 'IEADYSXZ', 'title': '*Context', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGS', 'accountId': 'IEADYSXZ', 'title': 'Subscription Owner', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGT', 'accountId': 'IEADYSXZ', 'title': 'Users', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGU', 'accountId': 'IEADYSXZ', 'title': 'CS Engagement Level**', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRNGV', 'accountId': 'IEADYSXZ', 'title': 'On Time?', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}},
-
-{'id': 'IEADYSXZJUABRTMH', 'accountId': 'IEADYSXZ', 'title': 'É custo Interno?', 'type': 'Checkbox', 'sharedIds': ['KX724NJO', 'KUAJOQMM', 'KUAKGSWP'], 'settings': {'inheritanceType': 'All', 'readOnly': False}},
-
-{'id': 'IEADYSXZJUABRTMT', 'accountId': 'IEADYSXZ', 'title': 'Qtde', 'type': 'Numeric', 'sharedIds': ['KX725N3G', 'KX724NJM', 'KX724NJO', 'KUAJOQMM', 'KUAKGSWP'], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 1, 'useThousandsSeparator': False, 'aggregation': 'Sum', 'readOnly': False}},
-
-{'id': 'IEADYSXZJUABRTM6', 'accountId': 'IEADYSXZ', 'title': 'Valor Honorário', 'type': 'Currency', 'sharedIds': ['KUAIH43O'], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 2, 'useThousandsSeparator': True, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABRTN6', 'accountId': 'IEADYSXZ', 'title': 'Tem Honorário ?', 'type': 'Checkbox', 'sharedIds': ['KX724NJO', 'KUAJOQMM', 'KUAKGSWP'], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRTOB', 'accountId': 'IEADYSXZ', 'title': 'Numero da Nota', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABRVMI', 'accountId': 'IEADYSXZ', 'title': 'Ações Imediatas', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'Projects', 'readOnly': False}}, {'id': 'IEADYSXZJUABRXIQ', 'accountId': 'IEADYSXZ', 'title': 'Faturado no publi', 'type': 'Checkbox', 'sharedIds': ['KUAIH43O', 'KX724NJO', 'KUAJDKIV'], 'settings': {'inheritanceType': 'All', 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUABRZBZ', 'accountId': 'IEADYSXZ', 'title': 'CNPJ', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABR4NT', 'accountId': 'IEADYSXZ', 'title': 'Data de início das férias', 'type': 'Numeric', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 0, 'useThousandsSeparator': False, 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABR4NV', 'accountId': 'IEADYSXZ', 'title': 'Saldo de férias', 'type': 'Numeric', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 0, 'useThousandsSeparator': False, 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABR4T4', 'accountId': 'IEADYSXZ', 'title': 'OLD 5 (Renomear)', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABR4UQ', 'accountId': 'IEADYSXZ', 'title': 'Data de fim de folga', 'type': 'Date', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUABR4UR', 'accountId': 'IEADYSXZ', 'title': 'Data de início de folga', 'type': 'Date', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUABR4UY', 'accountId': 'IEADYSXZ', 'title': 'Cliente', 'type': 'DropDown', 'sharedIds': [], 'settings': {'inheritanceType': 'Projects', 'values': ['ANA', 'Avidus', 'BB Digital', 'BB Promo', 'BB Seguros', 'CATENO', 'Eu Faço Cultura', 'FENAE', 'Instituto Fenae', 'Integra', 'LTM', 'Myvo', 'OI', 'Rede', 'SKECHERS', 'Wiz', 'Outro ...'], 'allowOtherValues': False, 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUABSBW6', 'accountId': 'IEADYSXZ', 'title': 'Nº OC', 'type': 'Text', 'sharedIds': ['KX724NJO', 'KUAJOQMM', 'KUAKGSWP'], 'settings': {'inheritanceType': 'Folders', 'readOnly': False}}, {'id': 'IEADYSXZJUABSGTZ', 'accountId': 'IEADYSXZ', 'title': 'Bug Type', 'type': 'DropDown', 'sharedIds': ['KX726EOT', 'KX726SNQ', 'KX726HNI', 'KX726EOS'], 'settings': {'inheritanceType': 'All', 'values': ['Padrão', 'Critico', 'Impeditivo', 'Melhoria', 'Cliente'], 'allowOtherValues': False, 'readOnly': False}}, {'id': 'IEADYSXZJUABS2DQ', 'accountId': 'IEADYSXZ', 'title': 'SLA', 'type': 'DropDown', 'sharedIds': ['KUAMMWFY', 'KUAKED6L', 'KUAIS3HN', 'KUAIUABA', 'KUAIZZT4', 'KUAIH43O', 'KUAIH45Y', 'KUAJDKIV'], 'settings': {'inheritanceType': 'All', 'values': ['Imediato', '1 dia', '2 dia ou mais'], 'allowOtherValues': False, 'readOnly': False}}, {'id': 'IEADYSXZJUABTOAJ', 'accountId': 'IEADYSXZ', 'title': 'Previsão entrega', 'type': 'Multiple', 'sharedIds': ['KUAIH43O', 'KX724NJO', 'KX726H4S', 'KUAKGSWP'], 'settings': {'inheritanceType': 'All', 'values': ['Agosto - 2020', 'Setembro - 2020', 'Outubro - 2020', 'Novembro - 2020', 'Dezembro - 2020', 'Janeiro - 2021', 'Fevereiro - 2021', 'Março - 2021', 'Abril - 2021', 'Maio - 2021', 'Junho - 2021', 'Julho - 2021', 'Agosto - 2021', 'Setembro - 2021', 'Outubro - 2021', 'Novembro - 2021', 'Dezembro - 2021'], 'readOnly': False}}, {'id': 'IEADYSXZJUABUJZA', 'accountId': 'IEADYSXZ', 'title': 'Risco', 'type': 'DropDown', 'sharedIds': [], 'settings': {'inheritanceType': 'Projects', 'values': ['Baixo', 'Médio', 'Alto'], 'allowOtherValues': False, 'readOnly': False}},
-{'id': 'IEADYSXZJUABUPQ2', 'accountId': 'IEADYSXZ', 'title': 'Valor Timesheet', 'type': 'Currency', 'sharedIds': ['KX726HM4'], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 2, 'useThousandsSeparator': False, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}},
-{'id': 'IEADYSXZJUABU3LB', 'accountId': 'IEADYSXZ', 'title': 'Valor total Timesheet', 'type': 'Currency', 'sharedIds': ['KUAIH43O'], 'settings': {'inheritanceType': 'Projects', 'decimalPlaces': 1, 'useThousandsSeparator': True, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}},
-{'id': 'IEADYSXZJUABU3LE', 'accountId': 'IEADYSXZ', 'title': 'Valor Total Freelas', 'type': 'Currency', 'sharedIds': ['KUAIH43O'], 'settings': {'inheritanceType': 'Projects', 'decimalPlaces': 2, 'useThousandsSeparator': True, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABVCHC', 'accountId': 'IEADYSXZ', 'title': 'Serviço', 'type': 'Numeric', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 0, 'useThousandsSeparator': True, 'aggregation': 'Sum', 'readOnly': False}},
-
-{'id': 'IEADYSXZJUABVECO', 'accountId': 'IEADYSXZ', 'title': 'Valor Total Real', 'type': 'Currency', 'sharedIds': ['KUAIH43O', 'KUAISUJB', 'KUAIR45Z', 'KUAIVT4Y', 'KUAISBBI'], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 2, 'useThousandsSeparator': True, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABVN4T', 'accountId': 'IEADYSXZ', 'title': 'Fornecedor', 'type': 'Text', 'sharedIds': ['KUAIH47X', 'KUAIXUT7', 'KUAKGORR', 'KUAIH43O', 'KUAKDGBQ'], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABVPQJ', 'accountId': 'IEADYSXZ', 'title': 'Nome do Projeto', 'type': 'Text', 'sharedIds': ['KUAIH47X', 'KUAKGORR', 'KUAIXUT7', 'KUAIH43O', 'KUAKDGBQ'], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABVPQL', 'accountId': 'IEADYSXZ', 'title': 'Data de Pagamento', 'type': 'Date', 'sharedIds': ['KUAIH47X', 'KUAIXUT7', 'KUAKGORR', 'KUAIH43O', 'KUAKDGBQ'], 'settings': {'inheritanceType': 'All', 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUABVQXL', 'accountId': 'IEADYSXZ', 'title': 'Sigla cliente', 'type': 'Text', 'sharedIds': ['KUAIH47X', 'KUAIH43O'], 'settings': {'inheritanceType': 'Folders', 'readOnly': False}}, {'id': 'IEADYSXZJUABVRER', 'accountId': 'IEADYSXZ', 'title': '%Honorario', 'type': 'Numeric', 'sharedIds': ['KUAIH43O'], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 2, 'useThousandsSeparator': True, 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABVSGX', 'accountId': 'IEADYSXZ', 'title': 'Receita', 'type': 'Currency', 'sharedIds': ['KUAIH43O'], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 2, 'useThousandsSeparator': True, 'currency': 'BRL', 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABVTEW', 'accountId': 'IEADYSXZ', 'title': 'PIT Tarefa', 'type': 'Text', 'sharedIds': ['KUAIH47X', 'KUAIXUT7', 'KUAIH43O'], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABXIT4', 'accountId': 'IEADYSXZ', 'title': 'Quantidade', 'type': 'Numeric', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'decimalPlaces': 0, 'useThousandsSeparator': False, 'aggregation': 'Sum', 'readOnly': False}}, {'id': 'IEADYSXZJUABYJTQ', 'accountId': 'IEADYSXZ', 'title': 'ND - Nota de Débito', 'type': 'Text', 'sharedIds': ['KX72RBB3', 'KUAIQLSR', 'KUAKDGBQ'], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUABZH4R', 'accountId': 'IEADYSXZ', 'title': 'Natureza de Pagamento', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUAB2EII', 'accountId': 'IEADYSXZ', 'title': 'Obs.:', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUAB4YFK', 'accountId': 'IEADYSXZ', 'title': 'Inclusão Painel', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUAB5AOR', 'accountId': 'IEADYSXZ', 'title': 'Desc. Alimentação', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}},
-
-{'id': 'IEADYSXZJUACCMLN', 'accountId': 'IEADYSXZ', 'title': 'Qtde prevista', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}},
-{'id': 'IEADYSXZJUACCMMH', 'accountId': 'IEADYSXZ', 'title': 'Qtde realizada', 'type': 'Text', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUACC4BY', 'accountId': 'IEADYSXZ', 'title': 'Comprovação', 'type': 'Text', 'spaceId': 'IEADYSXZI4QOZRYM', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUACOP3Y', 'accountId': 'IEADYSXZ', 'title': 'Status Projeto', 'type': 'Text', 'spaceId': 'IEADYSXZI4QOZRYM', 'sharedIds': [], 'settings': {'inheritanceType': 'Projects', 'readOnly': False}}, {'id': 'IEADYSXZJUACOP5D', 'accountId': 'IEADYSXZ', 'title': 'radar', 'type': 'Checkbox', 'spaceId': 'IEADYSXZI4QOZRYM', 'sharedIds': [], 'settings': {'inheritanceType': 'Projects', 'readOnly': False}}, {'id': 'IEADYSXZJUACRPFQ', 'accountId': 'IEADYSXZ', 'title': 'Período', 'type': 'Multiple', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'values': ['Janeiro', 'Fevereiro', 'Março', 'Abril', 'Maio', 'Junho', 'Julho', 'Agosto', 'Setembro', 'Outubro', 'Novembro', 'Dezembro'], 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUACRPGF', 'accountId': 'IEADYSXZ', 'title': 'Rede', 'type': 'DropDown', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'values': ['🟦 Tweet', '🟥 Reals', '🟥 Feed', '🟥 Stories', '⬛ TikTok', '🟪 Live', '📹 Programate', '🟨 Complexo', '📼 Conteúdo'], 'allowOtherValues': False, 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUACRRDJ', 'accountId': 'IEADYSXZ', 'title': 'Streamers', 'type': 'Multiple', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'values': ['🐸 Cururu', '🙅\u200d♀️ Ithuriana', '🦇 GargulaEx', '🎸 Marottah', '👽 MarcosAlef', '💃 IMaryCn', '✅ Todos'], 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUACWF6N', 'accountId': 'IEADYSXZ', 'title': 'Demandante', 'type': 'Text', 'spaceId': 'IEADYSXZI42AL44S', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUACWF6P', 'accountId': 'IEADYSXZ', 'title': 'E-mail', 'type': 'Text', 'spaceId': 'IEADYSXZI42AL44S', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUACWGA5', 'accountId': 'IEADYSXZ', 'title': 'Tipo', 'type': 'Text', 'spaceId': 'IEADYSXZI42AL44S', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False}}, {'id': 'IEADYSXZJUACWGBC', 'accountId': 'IEADYSXZ', 'title': 'Diretoria', 'type': 'Text', 'spaceId': 'IEADYSXZI42AL44S', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False, 'allowTime': False}}, {'id': 'IEADYSXZJUACXE75', 'accountId': 'IEADYSXZ', 'title': 'Data envio Comprovação', 'type': 'Date', 'spaceId': 'IEADYSXZI4QOZRYM', 'sharedIds': [], 'settings': {'inheritanceType': 'All', 'readOnly': False, 'allowTime': False}}]}
+{
+    "kind": "customfields",
+    "data": [
+        {
+            "id": "IEADYSXZJUABPXQ5",
+            "accountId": "IEADYSXZ",
+            "title": "PIT",
+            "type": "Text",
+            "sharedIds": [
+                "KX726SNQ",
+                "KX726H4S",
+                "KX725N3G",
+                "KX726HM4",
+                "KUAIXUT7",
+                "KUAKGSWP",
+                "KUAISGFI",
+                "KUAISMFW"
+            ],
+            "settings": {
+                "inheritanceType": "Projects",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABPX2K",
+            "accountId": "IEADYSXZ",
+            "title": "Valor do Projeto",
+            "type": "Currency",
+            "sharedIds": [
+                "KX724NJO",
+                "KUAJOQMM",
+                "KUAKGSWP",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "Projects",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": false,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABQYTL",
+            "accountId": "IEADYSXZ",
+            "title": "Valor Solicitado",
+            "type": "Currency",
+            "spaceId": "IEADYSXZI4QOKSRU",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABQYTQ",
+            "accountId": "IEADYSXZ",
+            "title": "Valor Negociado",
+            "type": "Currency",
+            "sharedIds": [
+                "KUAIH47X",
+                "KUAIH43O",
+                "KUAIXUT7",
+                "KUAIV2SG",
+                "KUAJDKIV"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABQZA4",
+            "accountId": "IEADYSXZ",
+            "title": "Referência (Nº Item da OC)",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABQZB3",
+            "accountId": "IEADYSXZ",
+            "title": "Margem Estimada",
+            "type": "Percentage",
+            "sharedIds": [
+                "KX726HNA",
+                "KX726HM6",
+                "KX726SNQ",
+                "KX726H4S",
+                "KUAKGSWP",
+                "KUAISGFI",
+                "KUAISMFW"
+            ],
+            "settings": {
+                "inheritanceType": "Projects",
+                "decimalPlaces": 0,
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABQ27R",
+            "accountId": "IEADYSXZ",
+            "title": "Valor Unitário",
+            "type": "Currency",
+            "sharedIds": [
+                "KX724NJM",
+                "KX724NJO",
+                "KX725N3G",
+                "KUAJOQMM",
+                "KUAI665M",
+                "KX726H4S"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABQ3JE",
+            "accountId": "IEADYSXZ",
+            "title": "É faturável?",
+            "type": "Checkbox",
+            "sharedIds": [
+                "KX724NJO",
+                "KUAJOQMM",
+                "KUAKGSWP",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABQ5IH",
+            "accountId": "IEADYSXZ",
+            "title": "Senha de acesso",
+            "type": "Text",
+            "sharedIds": [
+                "KX726HRD",
+                "KUAIH43O",
+                "KUAIV2SG"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABQ5KL",
+            "accountId": "IEADYSXZ",
+            "title": "MKT",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRJBK",
+            "accountId": "IEADYSXZ",
+            "title": "DOAC",
+            "type": "Text",
+            "sharedIds": [
+                "KX724NJO",
+                "KUAJOQMM",
+                "KUAKGSWP",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRNEU",
+            "accountId": "IEADYSXZ",
+            "title": "Allocation",
+            "type": "Percentage",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 2,
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRNEV",
+            "accountId": "IEADYSXZ",
+            "title": "Allocated hours",
+            "type": "Numeric",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 0,
+                "useThousandsSeparator": false,
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRNFT",
+            "accountId": "IEADYSXZ",
+            "title": "Time Tracking Flag",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRNFX",
+            "accountId": "IEADYSXZ",
+            "title": "Updated Delivery Deadline",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRNGB",
+            "accountId": "IEADYSXZ",
+            "title": "Wrike Subscription Type",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRNGF",
+            "accountId": "IEADYSXZ",
+            "title": "Wrike CSM",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRNGS",
+            "accountId": "IEADYSXZ",
+            "title": "Subscription Owner",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRNGT",
+            "accountId": "IEADYSXZ",
+            "title": "Users",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRTMH",
+            "accountId": "IEADYSXZ",
+            "title": "É custo Interno?",
+            "type": "Checkbox",
+            "sharedIds": [
+                "KUAIH45Y",
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRTMT",
+            "accountId": "IEADYSXZ",
+            "title": "Qtde",
+            "type": "Numeric",
+            "sharedIds": [
+                "KX725N3G",
+                "KX724NJM",
+                "KX724NJO",
+                "KUAJOQMM",
+                "KUAI665M",
+                "KX726H4S",
+                "KUAJDKIV"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 1,
+                "useThousandsSeparator": false,
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRTM6",
+            "accountId": "IEADYSXZ",
+            "title": "Valor Honorário",
+            "type": "Currency",
+            "sharedIds": [
+                "KUAIH43O",
+                "KX726H4S",
+                "KUAI665M",
+                "KUAISMFW"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRTN6",
+            "accountId": "IEADYSXZ",
+            "title": "Tem Honorário ?",
+            "type": "Checkbox",
+            "sharedIds": [
+                "KUAIH45Y",
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRTOB",
+            "accountId": "IEADYSXZ",
+            "title": "Numero da Nota",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRVMI",
+            "accountId": "IEADYSXZ",
+            "title": "Ações Imediatas",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "Projects",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRXIQ",
+            "accountId": "IEADYSXZ",
+            "title": "Faturado no publi",
+            "type": "Checkbox",
+            "sharedIds": [
+                "KUAIH43O",
+                "KX724NJO",
+                "KUAJDKIV",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABRZBZ",
+            "accountId": "IEADYSXZ",
+            "title": "CNPJ Fornecedor",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PKFWO",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABR4NV",
+            "accountId": "IEADYSXZ",
+            "title": "Saldo de férias",
+            "type": "Numeric",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 0,
+                "useThousandsSeparator": false,
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABR4UQ",
+            "accountId": "IEADYSXZ",
+            "title": "Data de fim de folga",
+            "type": "Date",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABR4UR",
+            "accountId": "IEADYSXZ",
+            "title": "Data de início de folga",
+            "type": "Date",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABR4UY",
+            "accountId": "IEADYSXZ",
+            "title": "Cliente",
+            "type": "DropDown",
+            "sharedIds": [
+                "KX726HNA",
+                "KX726H4S",
+                "KX726HM4",
+                "KUAI665M",
+                "KUAISMFW"
+            ],
+            "settings": {
+                "inheritanceType": "Folders",
+                "values": [
+                    "ANA",
+                    "Avidus",
+                    "BB Digital",
+                    "BB Promo",
+                    "BB Seguros",
+                    "CATENO",
+                    "Eu Faço Cultura",
+                    "FENAE",
+                    "Instituto Fenae",
+                    "Integra",
+                    "LTM",
+                    "Myvo",
+                    "OI",
+                    "Rede",
+                    "SKECHERS",
+                    "Wiz",
+                    "Monumenta",
+                    "Outro ..."
+                ],
+                "allowOtherValues": false,
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABSBW6",
+            "accountId": "IEADYSXZ",
+            "title": "Nº OC",
+            "type": "Text",
+            "sharedIds": [
+                "KX724NJO",
+                "KUAJOQMM",
+                "KUAKGSWP",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "Folders",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABSGTZ",
+            "accountId": "IEADYSXZ",
+            "title": "Bug Type",
+            "type": "DropDown",
+            "sharedIds": [
+                "KX726EOT",
+                "KX726SNQ",
+                "KX726HNI",
+                "KX726EOS"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "Padrão",
+                    "Critico",
+                    "Impeditivo",
+                    "Melhoria",
+                    "Cliente"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABS2DQ",
+            "accountId": "IEADYSXZ",
+            "title": "SLA",
+            "type": "DropDown",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "Imediato",
+                    "1 dia",
+                    "2 dias ou mais"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABUJZA",
+            "accountId": "IEADYSXZ",
+            "title": "Risco",
+            "type": "DropDown",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "Projects",
+                "values": [
+                    "Baixo",
+                    "Médio",
+                    "Alto"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABU3LB",
+            "accountId": "IEADYSXZ",
+            "title": "Valor total Timesheet",
+            "type": "Currency",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "Projects",
+                "decimalPlaces": 1,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABU3LE",
+            "accountId": "IEADYSXZ",
+            "title": "Valor Total Freelas",
+            "type": "Currency",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "Projects",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABVCHC",
+            "accountId": "IEADYSXZ",
+            "title": "Serviço",
+            "type": "Numeric",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 0,
+                "useThousandsSeparator": true,
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABVECO",
+            "accountId": "IEADYSXZ",
+            "title": "Valor Total Real",
+            "type": "Currency",
+            "sharedIds": [
+                "KUAIH43O",
+                "KUAISUJB",
+                "KUAIVT4Y",
+                "KUAISBBI",
+                "KX726H4S",
+                "KX724NJO",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABVN4T",
+            "accountId": "IEADYSXZ",
+            "title": "Fornecedor",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH47X",
+                "KUAIXUT7",
+                "KUAKGORR",
+                "KUAIH43O",
+                "KUAKDGBQ",
+                "KUAJDKIV"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABVPQJ",
+            "accountId": "IEADYSXZ",
+            "title": "Nome do Projeto",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH47X",
+                "KUAKGORR",
+                "KUAIXUT7",
+                "KUAIH43O",
+                "KUAKDGBQ",
+                "KUAJDKIV"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABVPQL",
+            "accountId": "IEADYSXZ",
+            "title": "Data de Pagamento",
+            "type": "Date",
+            "sharedIds": [
+                "KUAIH47X",
+                "KUAIXUT7",
+                "KUAKGORR",
+                "KUAIH43O",
+                "KUAKDGBQ",
+                "KUAJDKIV"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABVQXL",
+            "accountId": "IEADYSXZ",
+            "title": "Sigla cliente",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH47X",
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "Folders",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABVRER",
+            "accountId": "IEADYSXZ",
+            "title": "%Honorario",
+            "type": "Percentage",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 1,
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABVSGX",
+            "accountId": "IEADYSXZ",
+            "title": "Receita",
+            "type": "Currency",
+            "sharedIds": [
+                "KUAIH43O",
+                "KX726H4S",
+                "KX724NJO",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABVTEW",
+            "accountId": "IEADYSXZ",
+            "title": "PIT Tarefa",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH47X",
+                "KUAIXUT7",
+                "KUAIH43O",
+                "KUAJDKIV"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABXIT4",
+            "accountId": "IEADYSXZ",
+            "title": "Quantidade",
+            "type": "Numeric",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 0,
+                "useThousandsSeparator": false,
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABYJTQ",
+            "accountId": "IEADYSXZ",
+            "title": "ND - Nota de Débito",
+            "type": "Text",
+            "sharedIds": [
+                "KX72RBB3",
+                "KUAIQLSR",
+                "KUAKDGBQ"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUABZH4R",
+            "accountId": "IEADYSXZ",
+            "title": "Natureza de Pagamento",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAB2EII",
+            "accountId": "IEADYSXZ",
+            "title": "Obs.:",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAB4YFK",
+            "accountId": "IEADYSXZ",
+            "title": "Inclusão Painel",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAB5AOR",
+            "accountId": "IEADYSXZ",
+            "title": "Desc. Alimentação",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACCMLN",
+            "accountId": "IEADYSXZ",
+            "title": "Qtde prevista",
+            "type": "Text",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACC4BY",
+            "accountId": "IEADYSXZ",
+            "title": "Comprovação",
+            "type": "Text",
+            "spaceId": "IEADYSXZI4QOZRYM",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACOP3Y",
+            "accountId": "IEADYSXZ",
+            "title": "Status Projeto",
+            "type": "Text",
+            "spaceId": "IEADYSXZI4QOZRYM",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "Projects",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACOP5D",
+            "accountId": "IEADYSXZ",
+            "title": "radar",
+            "type": "Checkbox",
+            "spaceId": "IEADYSXZI4QOZRYM",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "Projects",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACRPFQ",
+            "accountId": "IEADYSXZ",
+            "title": "Período",
+            "type": "Multiple",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "Janeiro",
+                    "Fevereiro",
+                    "Março",
+                    "Abril",
+                    "Maio",
+                    "Junho",
+                    "Julho",
+                    "Agosto",
+                    "Setembro",
+                    "Outubro",
+                    "Novembro",
+                    "Dezembro"
+                ],
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACRPGF",
+            "accountId": "IEADYSXZ",
+            "title": "Rede",
+            "type": "DropDown",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "🟦 Tweet",
+                    "🟥 Reals",
+                    "🟥 Feed",
+                    "🟥 Stories",
+                    "⬛ TikTok",
+                    "🟪 Live",
+                    "📹 Programate",
+                    "🟨 Complexo",
+                    "📼 Conteúdo"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACRRDJ",
+            "accountId": "IEADYSXZ",
+            "title": "Streamers",
+            "type": "Multiple",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "🐸 Cururu",
+                    "🙅‍♀️ Ithuriana",
+                    "🦇 GargulaEx",
+                    "🎸 Marottah",
+                    "👽 MarcosAlef",
+                    "💃 IMaryCn",
+                    "✅ Todos"
+                ],
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACWF6N",
+            "accountId": "IEADYSXZ",
+            "title": "Demandante",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42AL44S",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACWF6P",
+            "accountId": "IEADYSXZ",
+            "title": "E-mail",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42AL44S",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACWGA5",
+            "accountId": "IEADYSXZ",
+            "title": "Tipo",
+            "type": "DropDown",
+            "spaceId": "IEADYSXZI42AL44S",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "Ajustes de Páginas: Texto",
+                    "Ajustes de Páginas: Estrutura",
+                    "Criação de redirect",
+                    "Criação de imagem",
+                    "Criação de páginas",
+                    "Uploader de arquivo"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACWGBC",
+            "accountId": "IEADYSXZ",
+            "title": "Diretoria",
+            "type": "DropDown",
+            "spaceId": "IEADYSXZI42AL44S",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "DIMEP",
+                    "DINED",
+                    "DIREC"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACXE75",
+            "accountId": "IEADYSXZ",
+            "title": "Data Mudança Status",
+            "type": "Date",
+            "spaceId": "IEADYSXZI4QOZRYM",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACX5SN",
+            "accountId": "IEADYSXZ",
+            "title": "Data de entrega",
+            "type": "Date",
+            "spaceId": "IEADYSXZI42AL44S",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDH3",
+            "accountId": "IEADYSXZ",
+            "title": "CNPJ",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDH4",
+            "accountId": "IEADYSXZ",
+            "title": "Razão Social",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDH5",
+            "accountId": "IEADYSXZ",
+            "title": "Insc Estadual",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDH6",
+            "accountId": "IEADYSXZ",
+            "title": "Prefixo",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDH7",
+            "accountId": "IEADYSXZ",
+            "title": "Apelido",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDIA",
+            "accountId": "IEADYSXZ",
+            "title": "Endereço",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDIC",
+            "accountId": "IEADYSXZ",
+            "title": "Endereço Cobrança",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDIO",
+            "accountId": "IEADYSXZ",
+            "title": "Telefone",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDIP",
+            "accountId": "IEADYSXZ",
+            "title": "E-mail",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDIR",
+            "accountId": "IEADYSXZ",
+            "title": "Seed",
+            "type": "Numeric",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 0,
+                "useThousandsSeparator": false,
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYDJX",
+            "accountId": "IEADYSXZ",
+            "title": "id_cliente",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "Folders",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYMNA",
+            "accountId": "IEADYSXZ",
+            "title": "Valor Terceiro",
+            "type": "Currency",
+            "sharedIds": [
+                "KX724NJO",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYMNB",
+            "accountId": "IEADYSXZ",
+            "title": "%Encargo",
+            "type": "Percentage",
+            "sharedIds": [
+                "KX724NJO",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 0,
+                "aggregation": "Sum",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYMNC",
+            "accountId": "IEADYSXZ",
+            "title": "Valor Encargo",
+            "type": "Currency",
+            "sharedIds": [
+                "KX724NJO",
+                "KUAI665M"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 2,
+                "useThousandsSeparator": true,
+                "currency": "BRL",
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYMQE",
+            "accountId": "IEADYSXZ",
+            "title": "Tipo de Custo",
+            "type": "DropDown",
+            "sharedIds": [
+                "KUAIH43O",
+                "KX724NJO",
+                "KX726HNG",
+                "KX726HNI"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "🤑Custo Interno - Agência",
+                    "🙃Custo Terceiro c/ honorário",
+                    "😪Custo Terceiro s/ honorário",
+                    "😊Custo Interno - Fornecedor",
+                    "💸Pagamento"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACYYSO",
+            "accountId": "IEADYSXZ",
+            "title": "Razão Social",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PKFWO",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY2RB",
+            "accountId": "IEADYSXZ",
+            "title": "sigla_meta",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY2RM",
+            "accountId": "IEADYSXZ",
+            "title": "honorario_meta",
+            "type": "Percentage",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "decimalPlaces": 1,
+                "aggregation": "Sum",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY4RZ",
+            "accountId": "IEADYSXZ",
+            "title": "Inscr Estadual",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PKFWO",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY4R2",
+            "accountId": "IEADYSXZ",
+            "title": "Insc Municipal",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PKFWO",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY4R5",
+            "accountId": "IEADYSXZ",
+            "title": "Tipo Serviço",
+            "type": "DropDown",
+            "sharedIds": [
+                "KX724NJO"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "AGÊNCIA DE VIAGEM",
+                    "AGÊNCIA RECEPCIONISTA",
+                    "AMBIENTAÇÃO",
+                    "AMBULÂNCIA",
+                    "ANIMAÇÃO",
+                    "ARQUITETO",
+                    "ARTISTA",
+                    "ARTISTA CIRCENSE",
+                    "ARTISTA PLÁSTICO",
+                    "ASSESSORIA ARTÍSTICA",
+                    "ASSESSORIA JURÍDICA",
+                    "ATORES/MODELOS",
+                    "ÁUDIO VISUAL",
+                    "AUTOMAÇÃO EVENTOS/COLET. DADOS",
+                    "BALÕES METALIZADOS",
+                    "BANDA",
+                    "BANHEIRO QUÍMICO",
+                    "BAR TENDER/GARÇOM",
+                    "BARISTA",
+                    "BEBIDA",
+                    "BLIMP´S/INFLÁVEIS",
+                    "BOLO PERSONALIZADO",
+                    "BOLSAS",
+                    "BOMBEIRO",
+                    "BONECOS DE PELÚCIA",
+                    "BORDADO",
+                    "BOTTONS",
+                    "BRINDES PROMOCIONAIS",
+                    "BUFFEF",
+                    "CABELEREIRO",
+                    "CAÇAMBA",
+                    "CARICATURISTA",
+                    "CARREGADORES",
+                    "CARRO DE SOM",
+                    "CARTÃO DE INCENTIVO",
+                    "CATRACA",
+                    "CENOGRAFIA",
+                    "CERIMONIAL",
+                    "CHOCOLATES PERSONALIZADOS",
+                    "CHURRASCO",
+                    "CLIMATIZAÇÃO",
+                    "CLOUDAPP",
+                    "COBERTURA/TENDA",
+                    "COMUNICAÇÃO VISUAL",
+                    "CONFECÇÃO",
+                    "CONTAINERS",
+                    "COSTUREIRA",
+                    "DECORAÇÃO",
+                    "DESPACHANTE",
+                    "DIRIGÍVEL",
+                    "DISPLAY INTERATIVO",
+                    "DISTRIBUIDORAS DE BEBIDAS",
+                    "DJ",
+                    "ECAD",
+                    "EDITORA",
+                    "ELETRICISTA",
+                    "EMPRESA DE RH",
+                    "ENGENHEIRO",
+                    "ESCUNAS",
+                    "ESPAÇO P/ EVENTO",
+                    "ESTACIONAMENTO",
+                    "ESTILISTA",
+                    "FANTASIA",
+                    "FILMAGEM",
+                    "FLORICULTURA",
+                    "FOGOS",
+                    "FOTOGRAFO",
+                    "FREELANCER",
+                    "GELO",
+                    "GERADOR",
+                    "GRADIL",
+                    "GRÁFICA",
+                    "GRAFITE",
+                    "GUINDASTE",
+                    "HAVAIANAS PERSONALIZADAS",
+                    "HOSPEDAGEM",
+                    "HOST´S",
+                    "HOTÉIS",
+                    "ILUMINAÇÃO",
+                    "INFLÁVEIS",
+                    "INFLÁVEIS - BRINQUEDOS",
+                    "INFORMATICA",
+                    "INGRESSOS",
+                    "INTERNET",
+                    "JINGLE",
+                    "JOIAS",
+                    "JORNAL",
+                    "LAVANDERIA",
+                    "LED",
+                    "LIMPEZA",
+                    "LOCAÇÃO DE PIANO",
+                    "MÁGICO ILUSIONISTA",
+                    "MANOBRISTA / ESTACIONAMENTO",
+                    "MANUSEIO",
+                    "MAQUIADORA",
+                    "MARCENARIA",
+                    "MASSAGEM",
+                    "MESTRE DE CERIMÔNIA",
+                    "MÍDIA  INTERATIVA",
+                    "MOBILIÁRIO",
+                    "OUTROS MEIOS",
+                    "PAINEL DE SENHAS",
+                    "PAISAGISMO",
+                    "PALCO MÓVEL",
+                    "PALESTRANTES",
+                    "PRODUTORA DE VÍDEO",
+                    "RADIO",
+                    "RECEPCIONISTA",
+                    "REVISTA",
+                    "SEGURANÇA",
+                    "SEGUROS",
+                    "SEGWAY",
+                    "SIMULADORES",
+                    "SONORIZAÇÃO",
+                    "TAXAS",
+                    "TELEVISÃO",
+                    "TRADUÇÃO SIMULTÂNEA",
+                    "TRADUTOR",
+                    "TRANSPORTADORA",
+                    "TRANSPORTE TERRESTRE",
+                    "TV ASSINATURA",
+                    "VIDEOWALL",
+                    "VITRINE VIVA",
+                    "VITRINISTA"
+                ],
+                "allowOtherValues": true,
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY4R6",
+            "accountId": "IEADYSXZ",
+            "title": "Apelido",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PKFWO",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY4R7",
+            "accountId": "IEADYSXZ",
+            "title": "Endereço",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PKFWO",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY4SA",
+            "accountId": "IEADYSXZ",
+            "title": "Endereço de cobrança",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PKFWO",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY4SB",
+            "accountId": "IEADYSXZ",
+            "title": "Telefone",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PKFWO",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACY4U2",
+            "accountId": "IEADYSXZ",
+            "title": "Itens Contrato",
+            "type": "DropDown",
+            "sharedIds": [
+                "KUAJ4OUN",
+                "KUAIVT4Y",
+                "KUAIH43O",
+                "KUAISBBI"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "1.1 DESENVOLVIMENTO DE PEÇAS",
+                    "1.32 ADAPTAÇÃO DE TELAS",
+                    "1.7 ADAPTAÇÃO DE PEÇAS",
+                    "1.8 ADAPTAÇÃO DE PEÇAS",
+                    "2.4 PACOTE DE PRODUÇÃO DE TEXTOS",
+                    "6.1 DESENVOLVIMENTO DE ESTUDO",
+                    "6.12 BENCHMARKING",
+                    "6.12 BENCHMARKING - SPRINT ESPECIAL",
+                    "8.7 HOSPEDAGEM",
+                    "9.1 PLANEJAMENTO",
+                    "9.11 TAGUEAMENTO",
+                    "9.2 PLANEJAMENTO ::  10 A 20 ÁREAS",
+                    "9.2 PLANEJAMENTO :: 10 A 20 ÁREAS",
+                    "9.4.1 - 8 DIÁRIAS",
+                    "9.4.1 - MANUTENÇÃO TECNOLÓGICA",
+                    "9.4.1 MANUTENÇÃO (FLUXO INTERNO DE TI)",
+                    "9.4.1 MANUTENÇÃO TECNOLÓGICA",
+                    "9.4.2 MANUTENÇÃO",
+                    "9.4.2. GESTÃO E MANUTENÇÃO",
+                    "15.1 DEPLOY"
+                ],
+                "allowOtherValues": true,
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACZAC4",
+            "accountId": "IEADYSXZ",
+            "title": "E-mail",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PKFWO",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACZAJL",
+            "accountId": "IEADYSXZ",
+            "title": "CNPJ Fornecedor",
+            "type": "Text",
+            "sharedIds": [
+                "KX724NJO",
+                "KX726H4S",
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACZAJN",
+            "accountId": "IEADYSXZ",
+            "title": "Nome Fornecedor (ñ editar)",
+            "type": "Text",
+            "sharedIds": [
+                "KX724NJO",
+                "KX726H4S"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACZATC",
+            "accountId": "IEADYSXZ",
+            "title": "meta_tarefa_mae",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACZCYO",
+            "accountId": "IEADYSXZ",
+            "title": "Andamento",
+            "type": "DropDown",
+            "sharedIds": [
+                "KUAJ4OUN",
+                "KUAIH43O",
+                "KUALUMLO"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "🛑 Iniciado sem DOAC aprovado",
+                    "✅ OK"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACZH5K",
+            "accountId": "IEADYSXZ",
+            "title": "Alias Projeto",
+            "type": "Text",
+            "sharedIds": [
+                "KUAISBBI",
+                "KUAJ4OUN",
+                "KUAIVT4Y",
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACZM6G",
+            "accountId": "IEADYSXZ",
+            "title": "Mês",
+            "type": "Text",
+            "sharedIds": [
+                "KUAISBBI",
+                "KUAIQLSR",
+                "KUAISUJB",
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACZM6O",
+            "accountId": "IEADYSXZ",
+            "title": "Ano",
+            "type": "Text",
+            "sharedIds": [
+                "KUAISBBI",
+                "KUAIQLSR",
+                "KUAISUJB",
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUACZ372",
+            "accountId": "IEADYSXZ",
+            "title": "Observações Gerais",
+            "type": "Text",
+            "spaceId": "IEADYSXZI42PO7TT",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAC2B4W",
+            "accountId": "IEADYSXZ",
+            "title": "Previsão de Faturamento",
+            "type": "Date",
+            "sharedIds": [
+                "KX724NJO"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAC2CAK",
+            "accountId": "IEADYSXZ",
+            "title": "Previsão Faturamento",
+            "type": "DropDown",
+            "sharedIds": [
+                "KX724NJO"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "Janeiro",
+                    "Fevereiro",
+                    "Março",
+                    "Abril",
+                    "Maio",
+                    "Junho",
+                    "Julho",
+                    "Agosto",
+                    "Setembro",
+                    "Outubro",
+                    "Novembro",
+                    "Dezembro"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAC5DRU",
+            "accountId": "IEADYSXZ",
+            "title": "Cliente",
+            "type": "Text",
+            "spaceId": "IEADYSXZI4QOKSRU",
+            "sharedIds": [],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAC7MX3",
+            "accountId": "IEADYSXZ",
+            "title": "meta_dados_OC",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "Folders",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAC7MYB",
+            "accountId": "IEADYSXZ",
+            "title": "Número da OC",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH43O",
+                "KX726H4S",
+                "KX726HNA"
+            ],
+            "settings": {
+                "inheritanceType": "Folders",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAC7MYC",
+            "accountId": "IEADYSXZ",
+            "title": "dataOC",
+            "type": "Date",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "Folders",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAC7NHL",
+            "accountId": "IEADYSXZ",
+            "title": "id_pai",
+            "type": "Text",
+            "sharedIds": [
+                "KUAIH43O"
+            ],
+            "settings": {
+                "inheritanceType": "Folders",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAC73WK",
+            "accountId": "IEADYSXZ",
+            "title": "Comprovações",
+            "type": "Text",
+            "sharedIds": [
+                "KUAJ4OUN",
+                "KUALVGQQ",
+                "KUAIVT4Y",
+                "KUAJDKIV",
+                "KUAIH43O",
+                "KUAK55RZ"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "readOnly": false,
+                "allowTime": false
+            }
+        },
+        {
+            "id": "IEADYSXZJUAC73WM",
+            "accountId": "IEADYSXZ",
+            "title": "Comprovações faturadas",
+            "type": "DropDown",
+            "sharedIds": [
+                "KUAIVT4Y",
+                "KUALVGQQ",
+                "KUAJ4OUN",
+                "KUAJDKIV",
+                "KUAIH43O",
+                "KUAK55RZ"
+            ],
+            "settings": {
+                "inheritanceType": "All",
+                "values": [
+                    "Sim",
+                    "Não"
+                ],
+                "allowOtherValues": false,
+                "readOnly": false,
+                "allowTime": false
+            }
+        }
+    ]
+}
