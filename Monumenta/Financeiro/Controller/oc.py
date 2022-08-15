@@ -99,6 +99,7 @@ class oc:
         jsonData = wrikeUtil.WrikeResponse('/' + url + '/' + ID, '')
         print(jsonData)
         idparente = ''
+        #um teste
         for row in jsonData['data']:
             try:
                 idparente = row['project']
