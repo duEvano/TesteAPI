@@ -79,12 +79,12 @@ class pdf_orcamento:
         data = [
             [
                 Paragraph('<b>Data de apresentação:</b>', labelStyle), self.__oc.dataGeracao,
-                Paragraph('<b>Data final:</b>', labelStyle), '12/12/2022'
+                Paragraph('<b>Data final:</b>', labelStyle), self.__oc.dataGeracao,
             ],
             [
                 Paragraph('<b>PIT:</b>', labelStyle), self.__oc.projeto.get_PIT(),
                 # todo: acrescentar 30 dias para a data de validade
-                Paragraph('<b>Validade:</b>', labelStyle), self.__oc.data
+                Paragraph('<b>Validade:</b>', labelStyle), self.__oc.dataValidade
             ],
             [
                 Paragraph('<b>Nome:</b>', labelStyle), self.__oc.projeto.get_Titulo(), '', ''
@@ -174,7 +174,7 @@ class pdf_orcamento:
 
             lineprincipal = [
                 Paragraph(str(index) + '.' + str(count) + ' - ' + y.titulo + y.descricao, headingStyle),
-                Paragraph(y.qtd, headingStyle), Paragraph(format.formatMoney(y.valor), headingStyle),
+                Paragraph(str(y.qtd), headingStyle), Paragraph(format.formatMoney(y.valor), headingStyle),
                 Paragraph(format.formatMoney(float(y.valor) * float(y.qtd)), headingStyle),
                 Paragraph(format.formatMoney(y.honorario), headingStyle),
                 Paragraph(format.formatMoney(y.encargo), headingStyle),
@@ -316,7 +316,14 @@ class pdf_orcamento:
 
     def go(self):
         nome_arquivo = 'oc_'+ str(self.__oc.numeroOC) + '.pdf'
-        doc = SimpleDocTemplate(os.getcwd() +  '\\static\\ocs\\' + nome_arquivo, topMargin=8)
+        self.__oc.nomeArquivo = nome_arquivo
+
+        directory = './static/ocs/'
+
+        file_path = os.path.join(directory, nome_arquivo)
+
+        doc = SimpleDocTemplate(file_path, topMargin=8)
         self.MontaOrcamentoMonu()
         doc.build(self.__elements)
-        return nome_arquivo
+        print('Gerou o PDF')
+        return self.__oc
