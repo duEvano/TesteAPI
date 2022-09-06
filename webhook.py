@@ -34,12 +34,16 @@ def abrir_webhook(id_folder, eventos, hookurl, querystring):
     return jsondata
 
 
-# print (abrir_webhook('IEADYSXZI4QSY3QA','TaskStatusChanged','https://wrike-api-hml.azurewebsites.net/updatedatastatus',''))
+#print (abrir_webhook('IEADYSXZI42PPQZX','FolderCustomFieldChanged','http://127.0.0.1:5000/trocaStatusOC',''))
 #print (abrir_webhook('IEADYSXZI4W4J75G','TaskStatusChanged','https://wrike-api-hml.azurewebsites.net/bcommercerDOAC',''))
 #print (abrir_webhook('IEADYSXZI4QRZ4ZS','TaskCustomFieldChanged','https://wrike-api-hml.azurewebsites.net/financeiroBBPromo',''))
 # web hook de teste para customfields - >IEADYSXZJAABDB5O
 #IEADYSXZJAABFWK2
-#print (abrir_webhook('IEADYSXZI42PPQZX','TaskCustomFieldChanged','https://wrike-api-hml.azurewebsites.net/financeiroBBSeguros',''))
+print (abrir_webhook('IEADYSXZI4QOZRYM','ProjectStatusChanged','https://wrike-api-hml.azurewebsites.net/criarProjeto',''))
+
+#pasta da LTM
+#IEADYSXZI4Q37PTT
+#print (abrir_webhook('IEADYSXZI44RQW6L','TaskCustomFieldChanged','https://wrike-api-hml.azurewebsites.net/financeiroValoresLTMGeral',''))
 
 
 def atualiza_webhook(id_hook, status):
@@ -52,4 +56,4 @@ def atualiza_webhook(id_hook, status):
 # [POST] /folders/IEADYSXZI4QSY3QA/webhooks
 #Active
 #Suspended
-print(atualiza_webhook('IEADYSXZJAABDM2L', 'Active'))
+#print(atualiza_webhook('IEADYSXZJAABG2SR', 'Active'))

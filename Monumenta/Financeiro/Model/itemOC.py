@@ -15,7 +15,15 @@ class itemOC :
     def __init__(self, id, title):
         self.__titulo = title
         self.__id = id
+        self.__qtd = 0
+        self.__valorReal = 0
+        self.__valorUnit = 0
+        self.__honorario = 0
+        self.__encargo = 0
+        self.__id = ''
+        self.__idPai = ''
         self.__desc = ''
+        self.__tipoCusto = ''
 
 
     def getTitulo(self):

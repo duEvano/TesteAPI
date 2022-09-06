@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Evano">
+    <title>Gerar OC</title>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+
+
+
+    <!-- Bootstrap core CSS -->
+<link href="/static/assets/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+    </style>
+
+
+    <!-- Custom styles for this template -->
+    <link href="/static/assets/css/starter-template.css" rel="stylesheet">
+  </head>
+  <body>
+
+<div class="col-lg-8 mx-auto  py-md-4">
+  <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+    <a href="/static" class="d-flex align-items-center text-dark text-decoration-none">
+      <img src = '/static/img/logoMonu.png' width="50" >  <h1 class="fs-3" style="padding-left: 10px;padding-top: 5px">Gerar OCs</h1>
+    </a>
+  </header>
+
+  <main>
+      <div class="row mb-3">
+           <div class="col" id="formPrincipal">
+                <p class="fs-6 col-md-10 lead">Gere o orçamento do Wrike em PDF ou Excel (ainda em desenvolvimento). Para isso, informe, a seguir, o link permanente da pasta de orçamento. </p>
+                    <div class="mb-5">
+
+                        <div class="bd-example">
+        <form class="row mb-3">
+          <div class="col-md-8">
+            <label for="validationServer01" class="form-label lead fs-6">Link permanente</label>
+            <input type="text" class="form-control" id="permalinktext" value="" required>
+          </div>
+
+           <div class="col-3" style="padding-top: 32px" id="btEnvio">
+            <button class="btn btn-primary flex-nowrap" type="button" onclick="loadOC()">Gerar&nbsp;OC</button>
+          </div>
+            <div class="col-3" style="padding-top: 27px;display: none" id="btLoading">
+            <img src="/static/img/loading.gif" width="32" height="32">
+          </div>
+        </form>
+
+        </div>
+
+                        <div id ="resultado" style="display: none">
+          <div class="form-label lead fs-6" id ="resultado" >
+              <b>Cliente :</b> <span id="Nomecliente">l</span><br>
+              <b>Nome do Projeto  :</b> <span id="NomeProjeto">Projeto X</span><br>
+              <b>Número da OC :</b> <span id="NumeroOC">1111</span><br>
+              <b>Valor total :</b> <span id="Valor">R$ 10.000,00</span><br>
+          </div>
+          <div>
+              <button class="btn btn-primary flex-nowrap" type="button"  id="linkDownload" onclick = "baixarArquivo()">Baixar PDF</button>
+          </div>
+      </div>
+      <div class="list-group" id="mensagens" style="display: none">
+          <a href="#" class="list-group-item list-group-item-action list-group-item-danger"> <b>Erro : </b><span id="msgErro">Mensagem de erro</span></a>
+          </div>
+                    </div>
+
+           </div>
+
+           <div class="col">
+               <div class="card">
+                  <div class="row g-0">
+
+                    <div class="col">
+                      <div class="card-body">
+                        <h5 class="card-title">Onde achar o Link Permanente?</h5>
+                        <p class="card-text lead fs-6">1 - Clica com o botão direto na pasta.<br>2 - Selecione "copiar link permanente".</p>
+                      </div>
+                        <div class="col">
+                      <img src="/static/img/linkPermanete.gif" width="450">
+                    </div>
+                    </div>
+                  </div>
+                </div>
+           </div>
+      </div>
+
+
+  </main>
+  <footer class="pt-5 my-5 text-muted border-top">
+
+  </footer>
+</div>
+
+
+    <script src="/static/assets/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+
+      function loadOC()
+      {
+
+          document.getElementById("btEnvio").style.display = 'none'
+          document.getElementById("btLoading").style.display = 'block'
+          loadDados()
+
+
+      }
+      linkG =''
+      async function loadDados()
+      {
+          var myHeaders = new Headers();
+          var myInit = { method: 'GET',
+               headers: myHeaders,
+               mode: 'cors',
+               cache: 'default' };
+
+          const urlInfo = '/getInfoOC?link='
+          var permalink = document.getElementById("permalinktext").value
+          const resp = await fetch(urlInfo+permalink,myInit)
+          const data = await resp.json()
+          console.log(data)
+          if(data.vacilo === '0')
+          {
+              document.getElementById("Nomecliente").innerHTML = data.cliente
+              document.getElementById("NomeProjeto").innerHTML = data.projeto
+              document.getElementById("NumeroOC").innerHTML = data.NumeroOC
+              document.getElementById("Valor").innerHTML = data.Valortotal
+              //document.getElementById("linkDownload").href = '/downloadGerada?nome=' + data.nomeArquivo
+              linkG = '/downloadGerada?nome='
+              linkG = linkG + data.nomeArquivo
+
+
+              document.getElementById("btLoading").style.display = 'none'
+              document.getElementById("btEnvio").style.display = 'block'
+              document.getElementById("resultado").style.display = 'block'
+              document.getElementById("mensagens").style.display = 'none'
+          }
+          else {
+              document.getElementById("mensagens").style.display = 'block'
+              document.getElementById("btLoading").style.display = 'none'
+              document.getElementById("btEnvio").style.display = 'block'
+              document.getElementById("msgErro").innerHTML = data.vacilo
+              console.log(data.vacilo)
+          }
+
+      }
+
+      function baixarArquivo()
+      {
+          window.location.href = linkG
+      }
+
+  </script>
+
+
+  </body>
+</html>

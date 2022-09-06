@@ -8,7 +8,7 @@ import wrikeUtil
 import utils.formating
 
 
-def atualiza_data_trocastatus(idTask):
+def  atualiza_data_trocastatus(idTask,oldstatus):
     id_campo_data = ''
     lista_campos = [constantes_BB.ID_CAMPO_DATA_STATUS, constantes_BB.ID_CAMPO_MES_STATUS,
                     constantes_BB.ID_CAMPO_ANO_STATUS]

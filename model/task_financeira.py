@@ -45,7 +45,10 @@ class task_financeira:
                     else:
                         #utilizado apenas para PP
                         if self.tipo_custo == '💸Pagamento':
-                            self.valototalReal = self.valorTotal * -1
+                            self.receita = self.valorTotal * -1
+                            self.valorhonorario=0
+                            self.valorEncargo = 0
+                            self.valorTerceiro = 0
 
     def get_valorHonorario(self):
         return self.valorhonorario

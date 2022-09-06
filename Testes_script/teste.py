@@ -24,11 +24,15 @@ import wrikeUtil
 #
 # print(dados[0]["taskId"])
 # #print(df['taskId'])
-
-q = 'permalink="https://www.wrike.com/open.htm?id=937034345"'
+#http://127.0.0.1:5000
+q = 'permalink="https://www.wrike.com/open.htm?id=552388364"'
 print(wrikeUtil.WrikeResponse('/folders/', q))
+#IEADYSXZI42PPQZX
 
 #IEADYSXZI435UATJ
+
+#ID DA PSTA DE PROJETOS
+#IEADYSXZI4QOZRYM
 
 #q = 'descendants=true'
 #q = q + '&fields=["superParentIds","hasAttachments","recurrent","briefDescription","responsibleIds","metadata","sharedIds","authorIds","dependencyIds","subTaskIds","parentIds","description","superTaskIds","attachmentCount","customFields"]'

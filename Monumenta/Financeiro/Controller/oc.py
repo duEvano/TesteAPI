@@ -11,9 +11,11 @@ from data import datareader
 from datetime import date
 
 class oc:
+
     def __init__(self, p):
         self.__id = p
         self.__paizao = None
+        self.__listaPais =[]
 
     def loadOcbyPermalink(self):
         ch = []
@@ -35,6 +37,7 @@ class oc:
                 ocX.numeroOC = row2['value']
 
 
+
         for row in jsonData['data']:
             #ocX.permalink = self.__permanlink
             ocX.id = row['id']
@@ -46,7 +49,7 @@ class oc:
                 # print(jsonData['data'][0]['childIds'])
         it = itemPai()
         ocX.listaOrcamento = it.loadItemPai(listaFilhos=jsonData['data'][0]['childIds'], id=ocX.id)
-
+        print(self.__listaPais)
         totaisX = totais()
         for y in ocX.listaOrcamento:
             for i in y.itens:
@@ -61,6 +64,15 @@ class oc:
         ocX.totais = totaisX
         #aqui calcula os totais
         self.loadParent(parentid, True)
+        tah_dentro_de_OC = True
+        if ocX.numeroOC == '':
+            tah_dentro_de_OC = False
+            for r in self.__listaPais :
+                if r == '2 - OCs' or r == 'OCs' or r == '1 - Orçamentos' or r =='2 - Orçamentos':
+                    tah_dentro_de_OC = True
+                    break
+        if not tah_dentro_de_OC :
+            raise Exception("O orçamento precisa estar dentro da pasta de OCs")
 
         idPaizao = self.__paizao['id']
         pr = proRegra(idPaizao)
@@ -82,11 +94,11 @@ class oc:
 
             wrikeUtil.update_custom_field_folder(ocX.id,arr_campos=arrCampos,arr_valores=arrValores)
 
-        #todo: atualizar a descrição com o link para download
+
         #o link irá gerar sempre as informações da tarefa !
         #vou colocar fora do if para que possa sempre atualizar os valores
         str_descricao = """Orçamento {0} <br/>Número da OC : {1} <br/>Data de geração: {2} <br/>Clique o link para download <br/> {3}"""
-        descricaoComLink = """<a href='http://127.0.0.1:5000/downloadOc?id={0}' target='_blank'>Orçamento</a>"""
+        descricaoComLink = """<a href='https://wrike-api-hml.azurewebsites.net/downloadOc?id={0}' target='_blank'>Orçamento</a>"""
         descricaoComLink = descricaoComLink.format(ocX.id)
         retornoString = str_descricao.format(ocX.projeto.titulo,ocX.numeroOC,ocX.data,descricaoComLink)
         wrikeUtil.updatecampo_folder(ocX.id,'description',retornoString)
@@ -97,14 +109,18 @@ class oc:
         # q = q + '?fields=["hasAttachments","customFields","description","superParentIds","metadata"]'
         url = 'folders' if isFolder else "task"
         jsonData = wrikeUtil.WrikeResponse('/' + url + '/' + ID, '')
-        print(jsonData)
+
+        #print(jsonData)
+        self.__listaPais.append(jsonData['data'][0]['title'])
+        print(self.__listaPais)
         idparente = ''
-        #um teste
+        #um teste alem
         for row in jsonData['data']:
             try:
                 idparente = row['project']
                 self.__paizao = row
                 break
-            except:
+            except Exception as e:
                 self.loadParent(row['parentIds'][0], isFolder)
+                print('aqui q tá a recursividade' + str(e))
                 break
